@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <h2 class="logo">FitLife</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h1>Transform Your Body, Transform Your Life</h1>
+            <p>Join thousands achieving their fitness goals.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="box">
+            <h3>Workout Plans</h3>
+            <p>Customized training programs for every goal.</p>
+        </div>
+
+        <div class="box">
+            <h3>Nutrition Guide</h3>
+            <p>Healthy meal plans designed by experts.</p>
+        </div>
+
+        <div class="box">
+            <h3>Expert Coaches</h3>
+            <p>Professional guidance throughout your journey.</p>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+        <h2>Why Choose Us?</h2>
+        <p>
+            We provide personalized workout plans, nutrition support,
+            and expert coaching to help you achieve sustainable results.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 FitLife. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+CSS
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url('fitness.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    margin-top:180px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#ff5722;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:60px 20px;
+}
+
+.box{
+    background:white;
+    padding:30px;
+    width:300px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about{
+    text-align:center;
+    padding:60px 20px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
